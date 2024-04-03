@@ -13,7 +13,7 @@ function TechStackSection() {
         <h2 className="text-center font-bold text-gray-700 text-4xl">
           Tech Stack
         </h2>
-        <div className="flex justify-center items-center mt-6 [&>img]:m-4">
+        <div className="flex flex-wrap justify-center items-center mt-6 [&>img]:m-4">
           <Image
             title="HTML, CSS"
             src={htmlCssImg}
@@ -33,7 +33,7 @@ function TechStackSection() {
             className="w-32"
           />
         </div>
-        <div className="flex justify-center items-center mt-6 [&>img]:m-4">
+        <div className="flex flex-wrap justify-center items-center mt-6 [&>img]:m-4">
           <Image title="Vue" src={vueImg} alt="Vue" className="w-16" />
           <Image
             title="Material-UI, Bootstrap"

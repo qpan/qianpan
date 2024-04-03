@@ -30,7 +30,7 @@ export default function App() {
   );
 
   return (
-    <Navbar disableAnimation isBordered onMenuOpenChange={setIsMenuOpen}>
+    <Navbar isBordered onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent justify="start" className="md:hidden">
         {avatar}
       </NavbarContent>

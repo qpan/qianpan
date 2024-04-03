@@ -16,7 +16,7 @@ function ContractSection() {
           <Avatar
             icon={<MdMailOutline size={'24px'} />}
             size="md"
-            className="bg-white text-blue-500 shadow-lg"
+            className="bg-white text-red-500 shadow-lg"
           />
           <Link size="lg" href="mailto:qianpan17@gmail.com">
             qianpan17@gmail.com
