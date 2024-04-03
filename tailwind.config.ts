@@ -15,6 +15,17 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      height: {
+        108: '26rem',
+        110: '28rem',
+        112: '30rem',
+        114: '32rem',
+        116: '34rem',
+        118: '36rem',
+        120: '38rem',
+        '500px': '500px',
+        '700px': '700px',
+      },
     },
   },
   darkMode: 'class',
