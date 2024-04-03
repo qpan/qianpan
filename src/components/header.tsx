@@ -1,21 +1,40 @@
 'use client';
 
 import React from 'react';
+import { map } from 'lodash';
 import {
   Navbar,
   NavbarContent,
   NavbarItem,
   NavbarMenuToggle,
   NavbarMenu,
-  NavbarMenuItem,
   Link,
   Avatar,
 } from '@nextui-org/react';
+import { Menu } from '@/types';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ['Home', 'Tech Stack', 'Projects', 'Resume', 'Contact'];
+  const navbarItems = map(Menu, (item, index) => (
+    <NavbarItem key={`${item}-${index}`}>
+      <Link
+        onClick={() => setIsMenuOpen(false)}
+        color="foreground"
+        href={
+          item === Menu.Home
+            ? '#'
+            : item === Menu.Resume
+              ? 'Qian_Pan_Resume.pdf'
+              : `#${item}`
+        }
+        size="lg"
+        className="font-bold"
+      >
+        {item}
+      </Link>
+    </NavbarItem>
+  ));
 
   const avatar = (
     <Avatar
@@ -30,7 +49,7 @@ export default function App() {
   );
 
   return (
-    <Navbar isBordered onMenuOpenChange={setIsMenuOpen}>
+    <Navbar isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent justify="start" className="md:hidden">
         {avatar}
       </NavbarContent>
@@ -43,29 +62,10 @@ export default function App() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        {menuItems.map((item, index) => (
-          <NavbarItem key={`${item}-${index}`}>
-            <Link color="foreground" href="#" size="lg" className="font-bold">
-              {item}
-            </Link>
-          </NavbarItem>
-        ))}
+        {navbarItems}
       </NavbarContent>
       <NavbarContent justify="end" className="hidden sm:flex"></NavbarContent>
-      <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              color={'foreground'}
-              href="#"
-              size="lg"
-              className="font-bold w-full justify-center"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
-      </NavbarMenu>
+      <NavbarMenu className="text-right">{navbarItems}</NavbarMenu>
     </Navbar>
   );
 }

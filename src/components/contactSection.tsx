@@ -3,12 +3,13 @@ import { Avatar, Link } from '@nextui-org/react';
 import { MdMailOutline } from 'react-icons/md';
 import linkedinImg from '/public/linkedin.svg';
 import githubImg from '/public/github.svg';
+import { Menu } from '@/types';
 
 function ContractSection() {
   return (
-    <section>
+    <section id={`${Menu.Contact}`}>
       <div className="p-20 text-center flex flex-col justify-center items-center">
-        <h2 className="font-bold text-4xl text-blue-500">Contact</h2>
+        <h2 className="font-bold text-4xl text-blue-500">{Menu.Contact}</h2>
         <h3 className="font-medium mt-6 text-xl max-md:text-medium p-2">
           Don&apos;t hesitate to contact me.
         </h3>

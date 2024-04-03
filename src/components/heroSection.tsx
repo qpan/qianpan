@@ -1,15 +1,19 @@
+'use client';
+
 import Image from 'next/image';
 import { Button } from '@nextui-org/react';
 import { MdDoubleArrow } from 'react-icons/md';
 import heroImg from '/public/hero.jpg';
+import { Menu } from '@/types';
 
 function HeroSection() {
   return (
-    <section>
+    <section id={`${Menu.Home}`}>
       <div className="relative flex h-500px">
         <Image
           src={heroImg}
           alt="Hero background image"
+          priority
           fill
           style={{ objectFit: 'cover', objectPosition: '50% 100%' }}
         />
@@ -36,7 +40,16 @@ function HeroSection() {
               </p>
             </h3>
             <div className="mt-4"></div>
-            <Button color="warning" size="lg" radius="none" variant="shadow">
+            <Button
+              color="warning"
+              size="lg"
+              radius="none"
+              variant="shadow"
+              onClick={() => {
+                const element = document.getElementById(Menu.Contact);
+                element?.scrollIntoView();
+              }}
+            >
               <div className="flex flex-row justify-center items-center font-medium">
                 <span className="mr-2">CONTACT ME</span>
                 <MdDoubleArrow />

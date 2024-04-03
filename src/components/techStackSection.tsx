@@ -5,13 +5,14 @@ import reactNextImg from '/public/react_next.svg';
 import vueImg from '/public/vue.svg';
 import muiBootstrapImg from '/public/mui_bootstrap.svg';
 import tailwindSassImg from '/public/tailwind_sass.svg';
+import { Menu } from '@/types';
 
 function TechStackSection() {
   return (
-    <section>
+    <section id={`${Menu.TechStack}`}>
       <div className="py-20">
         <h2 className="text-center font-bold text-gray-700 text-4xl">
-          Tech Stack
+          {Menu.TechStack.replace('-', ' ')}
         </h2>
         <div className="flex flex-wrap justify-center items-center mt-6 [&>img]:m-4">
           <Image
