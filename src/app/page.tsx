@@ -1,3 +1,4 @@
+import ContractSection from '@/components/contactSection';
 import Header from '@/components/header';
 import HeroSection from '@/components/heroSection';
 import ProjectSection from '@/components/projectSection';
@@ -11,6 +12,7 @@ export default function Home() {
         <HeroSection />
         <TechStackSection />
         <ProjectSection />
+        <ContractSection />
       </main>
     </>
   );

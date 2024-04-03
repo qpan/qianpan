@@ -9,8 +9,10 @@ import tailwindSassImg from '/public/tailwind_sass.svg';
 function TechStackSection() {
   return (
     <section>
-      <div className="mt-20">
-        <h2 className="text-center text-4xl">Tech Stack</h2>
+      <div className="py-20">
+        <h2 className="text-center font-bold text-gray-700 text-4xl">
+          Tech Stack
+        </h2>
         <div className="flex justify-center items-center mt-6 [&>img]:m-4">
           <Image
             title="HTML, CSS"
