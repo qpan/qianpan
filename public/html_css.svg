@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="556px" height="256px" viewBox="0 0 556 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons (1)</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-(1)" fill-rule="nonzero">
+            <g id="Group">
+                <rect id="Rectangle" fill="#E14E1D" x="0" y="0" width="256" height="256" rx="60"></rect>
+                <polygon id="Path" fill="#FFFFFF" points="48 38 56.6098 134.593 167.32 134.593 163.605 176.023 127.959 185.661 92.38 176.037 90.0012 149.435 57.9389 149.435 62.5236 200.716 127.951 218.888 193.461 200.716 202.244 102.655 85.8241 102.655 82.901 69.9448 205.041 69.9448 205.139 69.9448 208 38"></polygon>
+                <polygon id="Path" fill="#EBEBEB" points="128 38 48 38 56.6098 134.593 128 134.593 128 102.655 85.8241 102.655 82.901 69.9448 128 69.9448"></polygon>
+                <polygon id="Path" fill="#EBEBEB" points="128 185.647 127.959 185.661 92.38 176.037 90.0012 149.435 57.9388 149.435 62.5236 200.716 127.951 218.888 128 218.874"></polygon>
+            </g>
+            <g id="Group" transform="translate(300, 0)">
+                <rect id="Rectangle" fill="#0277BD" x="0" y="0" width="256" height="256" rx="60"></rect>
+                <polygon id="Path" fill="#EBEBEB" points="53.7527 102.651 56.6155 134.593 128.096 134.593 128.096 102.651"></polygon>
+                <polygon id="Path" fill="#EBEBEB" points="128.095 38 127.985 38 48 38 50.9036 69.9423 128.095 69.9423"></polygon>
+                <polygon id="Path" fill="#EBEBEB" points="128.095 218.841 128.095 185.608 127.955 185.645 92.3813 176.04 90.1072 150.564 72.821 150.564 58.0425 150.564 62.5175 200.718 127.948 218.882"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="167.318 134.593 163.61 176.019 127.985 185.635 127.985 218.866 193.468 200.718 193.948 195.321 201.454 111.229 202.233 102.651 208 38 127.985 38 127.985 69.9423 172.994 69.9423 170.088 102.651 127.985 102.651 127.985 134.593"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

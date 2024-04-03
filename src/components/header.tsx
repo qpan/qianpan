@@ -15,7 +15,7 @@ import {
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ['About', 'Skills', 'Projects', 'Resume', 'Contact'];
+  const menuItems = ['Home', 'Tech Stack', 'Projects', 'Resume', 'Contact'];
 
   const avatar = (
     <Avatar
