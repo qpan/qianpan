@@ -19,14 +19,14 @@ function HeroSection() {
         />
         <div className="flex justify-center w-full z-0 mt-10">
           <div className="text-center">
-            <h1 className="text-6xl max-md:text-4xl">
+            <h1 className="text-6xl max-md:text-4xl px-2">
               <span>
                 <span className="text-amber-500">HI</span>
-                <span>, MY NAME IS</span>
+                <span className="text-black">, MY NAME IS</span>
               </span>
               <span className="font-bold text-blue-500">&nbsp;QIAN PAN</span>
             </h1>
-            <h3 className="mt-4 text-xl max-md:text-medium p-2">
+            <h3 className="mt-4 text-black text-xl max-md:text-medium p-2">
               <p>
                 <span className="bg-white">
                   A <span className="font-bold">Front-End Developer</span> with
