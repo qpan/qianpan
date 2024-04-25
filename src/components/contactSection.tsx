@@ -11,7 +11,7 @@ function ContractSection() {
       <div className="p-20 text-center flex flex-col justify-center items-center">
         <h2 className="font-bold text-4xl text-blue-500">{Menu.Contact}</h2>
         <h3 className="font-medium mt-6 text-xl max-md:text-medium p-2">
-          Don&apos;t hesitate to contact me.
+          Please feel free to reach out to me.
         </h3>
         <div className="flex justify-center items-center gap-2">
           <Avatar
