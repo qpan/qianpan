@@ -2,7 +2,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { MdArrowForward } from 'react-icons/md';
 
 import { Menu, ProjectProps } from '@/types';
-import readmeMakerDemoImg from '/public/readmeMakerDemo.png';
+import readmeMakerDemoImg from '/public/readmemakerDemo.png';
 import tworkDemoImg from '/public/tworkDemo.png';
 import moneyvisorkDemoImg from '/public/moneyvisorDemo.png';
 import ProjectCard from './projectCard';
