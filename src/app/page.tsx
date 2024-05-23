@@ -1,9 +1,9 @@
-import ContractSection from '@/components/contactSection';
-import FooterSection from '@/components/footerSection';
 import Header from '@/components/header';
 import HeroSection from '@/components/heroSection';
-import ProjectSection from '@/components/projectSection';
 import TechStackSection from '@/components/techStackSection';
+import ProjectSection from '@/components/projectSection';
+import ContractSection from '@/components/contactSection';
+import FooterSection from '@/components/footerSection';
 
 export default function Home() {
   return (
